@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.top {
+    display: flex;
+}
+
+.top .img-game {
+    height: 580px;
+}
+
+.start {
+    width: 100%;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.start .start-game {
+    padding: 10px;
+    border-radius: 9px;
+    background-color: #27AE60;
+    border-style: none;
+    color: white;
+    font-size: 25px;
+}
+
+.start .mask {
+    font-size: 50px;
+}
+
+.bottom .keyboard {
+    margin-top: 20px;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 100px 0 100px;
+}
+
+.keyboard .letter {
+    margin: 5px;
+}
+
+.keyboard .letter .letter-button {
+    border-style: none;
+    border-radius: 9px;
+    font-weight: 600;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    background-color: #9FAAB5;
+    color: #50555a;
+}
+
+.guess {
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center
+}
+
+.guess .guess-span {
+    font-size: 25px;
+    font-weight: 500;
+}
+.guess .guess-input{
+    height: 30px;
+    margin: 0 20px;
+    border-radius: 4px;
+    border-style:solid;
+}
+.guess .guess-button{
+    height: 35px;
+    border-style: none;
+    border-radius: 9px;
+    font-size: 20px;
+    background-color: rgb(214, 24, 24);
+    color: #fff;
+}
