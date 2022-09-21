@@ -1,10 +1,13 @@
+import "./assets/styles/reset.css"
+import "./assets/styles/style.css"
+import state0 from "./assets/img/forca0.png"
 import alfabeto from "./Palavras"
 
 export default function App() {
     return (
         <main className ="main">
             <div className ="top">
-                <img className ="img-game" src="assets/forca0.png" />
+                <img className ="img-game" src={state0} />
                 <div className ="start">
                     <button className ="start-game">Escolha uma palavra</button>
                     <span className ="mask">_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _</span>
